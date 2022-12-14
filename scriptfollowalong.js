@@ -7,17 +7,19 @@ let myFunction = (a,b) => a + b;
 myFunction(a, b);
 console.log(myFunction); 
             
- 
-let listThree = document.querySelector("#list-three");
-let listFive = document.querySelector("#list-five");
-let unordered = listThree.parentElement;
-let body = listThree.closest('body');
-let skipList = [listThree, listFive];
+//  save the below for reference. function
+// takes specific 3rd and 5th elements in unordered
+// // list and highlights in grey!
+// let listThree = document.querySelector("#list-three");
+// let listFive = document.querySelector("#list-five");
+// let unordered = listThree.parentElement;
+// let body = listThree.closest('body');
+// let skipList = [listThree, listFive];
 
-let changeColor = (element) => element.style.backgroundColor = "#999";
+// let changeColor = (element) => element.style.backgroundColor = "#999";
 
 
-skipList.forEach(changeColor);
+// skipList.forEach(changeColor);
 
 
 
